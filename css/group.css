@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
