@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ekstra ` */
+
 main {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  background-color: bisque;
+  background-color: #95877c;
 }
 
 main section {
@@ -54,7 +61,7 @@ h1 {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: bisque;
 }
 
 .dropdown-content {
