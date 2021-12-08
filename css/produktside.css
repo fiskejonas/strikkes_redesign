@@ -1,0 +1,9 @@
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+.rodt_garn {
+  background-image: url(/unsplash/rodt_garn.jpg);
+  background-size: cover;
+}
