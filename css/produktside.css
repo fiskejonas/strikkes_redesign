@@ -1,27 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 section#produkter {
   display: grid;
   grid-template-rows: 1fr 1fr;
   max-height: 800px;
 }
 
-.tekst {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.billede_container {
-  display: grid;
-  grid-row: 1/2;
-}
-
-.udvalg_container {
-  display: grid;
-  grid-row: 2/3;
+.ting {
+  display: flex;
+  font-size: 1.5vw;
 }
 
 .udvalg_wrapper {
   display: flex;
-  gap: 50px;
-  justify-content: space-between;
+  font-size: 1vw;
 }
