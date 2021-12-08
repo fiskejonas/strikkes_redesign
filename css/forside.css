@@ -1,6 +1,7 @@
 main {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
+  background-color: bisque;
 }
 
 main section {
@@ -23,7 +24,7 @@ h1 {
 /*navigationsbaren*/
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(202, 185, 128);
 }
 
 .navbar a {
