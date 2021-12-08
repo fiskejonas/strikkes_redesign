@@ -31,7 +31,7 @@ img {
   padding: 1rem;
 }
 header {
-  position: sticky;
+  position: relative;
   top: 0;
   background-color: rgb(90, 155, 199);
   padding: 5px;
