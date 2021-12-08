@@ -58,7 +58,7 @@ header li {
   display: inline;
 }
 
-.logo {
+header .logo {
   font-size: 25px;
   font-weight: bold;
 }
