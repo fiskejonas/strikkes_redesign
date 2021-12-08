@@ -1,6 +1,7 @@
 main {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
+  background-color: rgb(235, 235, 235);
 }
 
 main section {
@@ -14,14 +15,16 @@ img {
 hr {
   height: 2px;
   border-width: 0;
-  background-color: grey;
+  background-color: white;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
-
-.omega_container {
-  display: grid;
-  grid-template-columns: minmax(auto, 1200px) minmax(auto, 250px);
-  gap: 1rem;
+@media (min-width: 700px) {
+  .omega_container {
+    display: grid;
+    grid-template-columns: minmax(auto, 1200px) minmax(auto, 250px);
+    gap: 1rem;
+  }
 }
 
 .color li {
@@ -73,4 +76,20 @@ hr {
 .color_8 {
   background-image: url(/billeder/baby_merino/52-2.jpg);
   background-size: cover;
+}
+
+button {
+  background-color: rgb(164, 212, 159);
+  border: none;
+  color: white;
+  padding: 3% 25%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  box-shadow: 0 5px 5px 0 rgba(128, 124, 124, 0.24),
+    0 5px 10px 0 rgba(128, 128, 128, 0.19);
 }
