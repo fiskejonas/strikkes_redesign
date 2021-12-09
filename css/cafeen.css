@@ -1,0 +1,22 @@
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section#strikkecafeen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.tekst {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.cafebillede {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
