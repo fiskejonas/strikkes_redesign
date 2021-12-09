@@ -16,8 +16,8 @@ main section {
 }
 
 .logo {
-  width: 30%;
-  max-width: 100%;
+  width: 40%;
+  /* max-width: 100%; */
 }
 @media (min-width: 650px) {
   .omos {
