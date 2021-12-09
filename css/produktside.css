@@ -1,9 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
-.rodt_garn {
-  background-image: url(/unsplash/rodt_garn.jpg);
-  background-size: cover;
+
+section#produkter {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-height: 800px;
+}
+
+.ting {
+  display: flex;
+  font-size: 1.5vw;
+  padding-bottom: 2vh;
+  padding-top: 5vh;
+}
+
+.udvalg_wrapper {
+  display: flex;
+  font-size: 1vw;
+}
+@media only screen and (max-width: 800px) {
+  .ting {
+    display: grid;
+    font-size: 1.5vw;
+    padding-bottom: 2vh;
+    padding-top: 5vh;
+  }
+  .udvalg_wrapper {
+    display: flex;
+    font-size: 1vw;
+  }
 }
