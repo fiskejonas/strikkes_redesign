@@ -13,27 +13,26 @@ img {
 section#produkter {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  max-height: 800px;
 }
 
 .ting {
   display: flex;
   font-size: 1.5vw;
-  padding-bottom: 2vh;
-  padding-top: 5vh;
+  margin-top: 50px;
 }
 
 .udvalg_wrapper {
   display: flex;
   font-size: 1vw;
 }
+
 @media only screen and (max-width: 800px) {
   .ting {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     font-size: 1.5vw;
-    padding-bottom: 2vh;
-    padding-top: 5vh;
   }
+
   .udvalg_wrapper {
     display: flex;
     font-size: 1vw;
