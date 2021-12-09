@@ -4,26 +4,39 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: rgb(235, 235, 235);
+}
+
+.billede {
+  -webkit-transform: rotate(90deg);
+  outline: 2px solid red;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: white;
+}
 img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-section#produkter {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* outline: 2px solid red; */
 }
 
 .ting {
   display: flex;
   font-size: 1.5vw;
   margin-top: 50px;
+  /* outline: 2px solid rgb(30, 255, 0); */
 }
 
 .udvalg_wrapper {
   display: flex;
   font-size: 1vw;
+  margin-top: 60px;
+  /* outline: 2px solid rgb(47, 0, 255); */
 }
 
 @media only screen and (max-width: 800px) {
@@ -37,4 +50,31 @@ section#produkter {
     display: flex;
     font-size: 1vw;
   }
+}
+.baby {
+  transition: transform 0.2s;
+}
+.baby:hover {
+  transform: scale(1.1);
+}
+
+.lace {
+  transition: transform 0.2s;
+}
+.lace:hover {
+  transform: scale(1.1);
+}
+
+.mille {
+  transition: transform 0.2s;
+}
+.mille:hover {
+  transform: scale(1.1);
+}
+
+.extra {
+  transition: transform 0.2s;
+}
+.extra:hover {
+  transform: scale(1.1);
 }
