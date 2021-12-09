@@ -12,6 +12,10 @@ img {
   width: 100%;
 }
 
+p {
+  margin-bottom: 5%;
+}
+
 hr {
   height: 2px;
   border-width: 0;
@@ -19,7 +23,8 @@ hr {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-@media (min-width: 700px) {
+
+@media (min-width: 650px) {
   .omega_container {
     display: grid;
     grid-template-columns: minmax(auto, 1200px) minmax(auto, 250px);
@@ -27,6 +32,7 @@ hr {
   }
 }
 
+/*FARVER*/
 .color li {
   height: 55px;
   width: 55px;
@@ -36,6 +42,7 @@ hr {
   display: flex;
   flex-flow: wrap;
   gap: 5px;
+  border-radius: 50%;
 }
 
 .color_1 {
@@ -78,13 +85,25 @@ hr {
   background-size: cover;
 }
 
+.color_1:hover,
+.color_2:hover,
+.color_3:hover,
+.color_4:hover,
+.color_5:hover,
+.color_6:hover,
+.color_7:hover,
+.color_8:hover {
+  border: 4px solid #ffffff;
+}
+
+/*KNAP*/
 button {
   background-color: rgb(164, 212, 159);
   border: none;
   color: white;
   padding: 3% 25%;
   text-align: center;
-  display: inline-block;
+
   font-size: 1.5rem;
   border-radius: 5px;
 }
