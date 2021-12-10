@@ -8,16 +8,12 @@ main {
   background-color: rgb(235, 235, 235);
 }
 
-.billede {
-  -webkit-transform: rotate(90deg);
-  outline: 2px solid red;
-}
-
 hr {
   border: none;
   height: 5px;
   background-color: white;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -51,6 +47,7 @@ img {
     font-size: 1vw;
   }
 }
+
 .baby {
   transition: transform 0.2s;
 }
