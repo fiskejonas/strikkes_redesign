@@ -18,7 +18,7 @@ img {
 }
 
 .ting {
-  display: flex;
+  display: grid;
   font-size: 1.5rem;
   margin-top: 50px;
   /* outline: 2px solid rgb(30, 255, 0); */
