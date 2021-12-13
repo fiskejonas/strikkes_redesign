@@ -97,6 +97,10 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
 /* When the screen is less than 650 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 650px) {
   .navbar a:not(:first-child),
@@ -106,6 +110,29 @@ body {
   .navbar a.icon {
     float: right;
     display: block;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  nav {
+    display: none;
+  }
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: column;
   }
 }
 
