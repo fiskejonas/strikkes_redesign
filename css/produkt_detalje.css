@@ -1,7 +1,6 @@
 main {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  background-color: rgb(235, 235, 235);
 }
 
 main section {
@@ -22,6 +21,10 @@ hr {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 650px) {

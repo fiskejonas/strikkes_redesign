@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-main {
-  background-color: rgb(235, 235, 235);
-}
-
 hr {
   border: none;
   height: 5px;
