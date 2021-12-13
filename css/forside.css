@@ -1,4 +1,3 @@
-/* ekstra  */
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +33,10 @@ h1 {
 
 /*navigationsbaren*/
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   overflow: hidden;
   background-color: #fdf5e1;
 }
