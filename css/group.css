@@ -78,23 +78,6 @@ header .logo {
   font-weight: bold;
 }
 
-/*burgermenu*/
-.toggle-btn {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .toggle-btn {
-    background: transparent;
-    border: none;
-    display: block;
-    min-width: 44px;
-    min-height: 44px;
-    font-size: 1.1rem;
-    cursor: pointer;
-  }
-}
-
 /*footer*/
 
 footer {
@@ -108,7 +91,6 @@ footer {
 
 .row {
   display: flex;
-
   flex-wrap: wrap;
 }
 
