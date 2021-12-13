@@ -12,7 +12,6 @@ main section {
   grid-column: 2 / 3;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(235, 235, 235);
 }
 

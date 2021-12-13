@@ -27,6 +27,8 @@ p {
 main {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+}
+body {
   background-color: rgb(235, 235, 235);
 }
 
