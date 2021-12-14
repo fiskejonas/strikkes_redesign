@@ -1,123 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/group.css">
-    <link rel="stylesheet" href="/css/cafeen.css">
-    <meta name="robots" content="noindex">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/group.css" />
+    <link rel="stylesheet" href="/css/cafeen.css" />
+    <meta name="robots" content="noindex" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>Strikkecafe</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <nav>
+        <div class="logo">
+          <li>
+            <a href="forside.html">
+              <img src="/billeder/logo_strikkes.svg" alt="" />
+            </a>
+          </li>
+        </div>
+        <div id="menuknap">☰</div>
 
-        <!-- <button class="toggle-btn">☰</button> -->
-        
-        <nav>
-            <a href="index.html" class="logo">Strikkes</a>
-            <ul>
-                <li><a href="produktside.html">PRODUKTER</a></li>
-                <li><a href="produkt_detalje.html">PRODUKT</a></li>
-                <li><a href="cafeen.html">STRIKKECAFE</a></li>
-            </ul>
-        </nav>
+        <ul id="menu" class="hidden">
+          <li><a href="underside.html">Tilbud</a></li>
+          <li><a href="produktside.html">Garn</a></li>
+          <li><a href="underside.html">Tilbehør</a></li>
+          <li><a href="underside.html">Medlemskab</a></li>
+          <li><a href="cafeen.html">Strikkecafeen</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id=strikkecafeen>
-            <div class="tekst">
-                <div class="tekst">
-                <h1>Strikkecafé</h1>
-                <p>Kom ned i vores hyggelige strikkebutik i Brøndby og strik eller hækl sammen med andre, som har samme passion som dig</p>
-                <br>
-                <p>Her kan du kan få hjælp og vejledning, hvis noget driller - eller hvad med inspiration til et nyt projekt?</p>
-                <br>
-                <p>Du vil også have mulighed for at handle garn og tilbehør til den cafeaften du deltager i.</p>
-                <br>
-                <p>På nogle cafeaftener, vil der være fokus på et område, hvor der vil være særlig information eller hjælp at hente på det pågældende område.</p>
-                <br>
-                <p>Der vil være kaffe, the og kage med i prisen, når du booker din caféaften.</p>
-                <br>
-                <p>Men skynd dig - der er kun et begrænset antal pladser, så book dig ind nu!</p>
-                <br>
-                <p>Jeg håber at du vil komme og strikke eller hækle sammen med mig!</p>
-                </div>
-
-            </div>
-            <div class="cafebillede">
-                <div class="billede">
-                    <img src="/unsplash/strikkepinde.jpg" alt="strikkepinde">
-                </div>
-            </div>
-
-            <div class="booking">
-                <div class="tidspunkt">
-                    <h1>Hvornår afholder vi strikkecafé?</h1>
-                    <p>Vores strikkecafé bliver afholdt hver anden onsdag og torsdag - hver måned!</p>
-                <div class="vælgdato">
-                    <label for="dato">Vælg dato</label>
-                </div>
-                    <input type="date" id="dato" name="dato">
-                    <button class=bekræft>Bekræft dato</button>
-                </div>
-            </div>
-            <div class="cafebillede_2">
-                <div class="billede_2">
-                    <img src="/unsplash/strikkepinde.jpg" alt="strikkev2">
-                </div>
-            </div>
-        </section>
+      <section id="strikkecafeen">
+        <div class="strikkecafe">
+          <div class="tekst">
+            <h1>Strikkecafé</h1>
+            <br />
+            <p>
+              Kom ned i vores hyggelige strikkebutik i Brøndby og strik eller
+              hækl sammen med andre, som har passion som dig. Her kan du også få
+              hjælp og vejledning, hvis noget driller - eller hvad med
+              inspiration til et nyt projekt? Du vil også have mulighed for at
+              handle garn og tilbehør til den caféaften du deltager i. På nogle
+              caféaftener vil der være fokus på et område, hvor der vil være
+              særlig information eller hjælp at hente på det pågældende område.
+              Der vil være kaffe, the og kage med i prisen, når du booker din
+              caféaften. Men skynd dig, der er kun et begrænset antal pladser,
+              så book dig ind nu! <br />
+              Jeg håber at du vil komme og strikke eller hækle sammen med mig!
+            </p>
+            <br />
+          </div>
+          <img src="/billeder/butikbilleder/IMG_5294.jpg" alt="" />
+        </div>
+        <hr />
+        <div class="bestilling">
+          <div class="tekst_2">
+            <h2>Hvornår</h2>
+            <br />
+            <p>
+              Vi afholder vores strikkecafé hver eneste måned! Det foregår hver
+              anden uge - mere specifikt onsdag aften. Skulle du have lyst til
+              at deltage i en af vores fremtidige arrangementer og være en del
+              af vores hyggelige fællesskab skal du bare booke en tid. <br />
+              <br />
+              Du kan booke tid til den kommende strikkecafé ved at udfylde
+              felterne nedenfor og huske at vælge en dato i kalderen.
+              <br /><br />Mange kærlige hilsener, <br />
+              Rikke Liljendahl
+            </p>
+            <br />
+          </div>
+          <div class="fornavn">
+            <label for="Fornavn">
+              Fornavn
+              <input placeholder="fx Gitte" type="text" name="fnavn" required />
+            </label>
+          </div>
+          <div class="efternavn">
+            <label for="Efternavn">
+              Efternavn
+              <input
+                placeholder="fx Mortensen"
+                type="text"
+                name="enavn"
+                required
+              />
+            </label>
+          </div>
+          <div class="mail">
+            <label for="E-mail">
+              E-mail
+              <input
+                placeholder="fx gittemor@gmail.com"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </label>
+          </div>
+          <div class="tilmeld">
+            <label for="Kalender"
+              >Vælg dato
+              <input type="date" name="kalender" id="dato" />
+            </label>
+          </div>
+          <div class="bekræft">
+            <button>BEKRÆFT</button>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col">
-              <h4>INFORMATION</h4>
-  
-              <ul>
-                <li><a href="#">OM OS</a></li>
-                <li><a href="#">LEVERING OG RETURNERING</a></li>
-                <li><a href="#">HANDELSBETINGELSER</a></li>
-              </ul>
-            </div>
-  
-            <div class="footer-col">
-              <h4>KONTAKT OS</h4>
-  
-              <ul>
-                <li><a href="#">STRIKKES.DK APS</a></li>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>INFORMATION</h4>
 
-                <li>
-                  <a href="#"
-                    >VIBEHOLMSVEJ 20 <br />
-                    KÆLDER 2605 <br />
-                    BRØNDBY, DANMARK
-                  </a>
-                </li>
+            <ul>
+              <li><a href="#">OM OS</a></li>
+              <li><a href="#">LEVERING OG RETURNERING</a></li>
+              <li><a href="#">HANDELSBETINGELSER</a></li>
+            </ul>
+          </div>
 
-                <li><a href="#">RING TIL OS: +45 42 61 42 59</a></li>
+          <div class="footer-col">
+            <h4>KONTAKT OS</h4>
 
-                <li><a href="#">E-MAIL: hej@strikkes.dk</a></li>
-              </ul>
-            </div>
-  
-            <div class="footer-col">
-              <h4>SOCIALE MEDIER</h4>
-  
-              <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-  
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </div>
+            <ul>
+              <li><a href="#">STRIKKES.DK APS</a></li>
+
+              <li>
+                <a href="#"
+                  >VIBEHOLMSVEJ 20 <br />
+                  KÆLDER 2605 <br />
+                  BRØNDBY, DANMARK
+                </a>
+              </li>
+
+              <li><a href="#">RING TIL OS: +45 42 61 42 59</a></li>
+
+              <li><a href="#">E-MAIL: hej@strikkes.dk</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>SOCIALE MEDIER</h4>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+              <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-    <script src="login.js"></script>
-</body>
+    <script src="../java/login.js"></script>
+    <script src="../java/index.js"></script>
+    <script src="../java/script.js"></script>
+  </body>
 </html>

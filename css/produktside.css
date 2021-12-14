@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-main {
-  background-color: rgb(235, 235, 235);
-}
-
 hr {
   border: none;
   height: 5px;
@@ -22,15 +18,15 @@ img {
 }
 
 .ting {
-  display: flex;
-  font-size: 1.5vw;
+  display: grid;
+  font-size: 1.5rem;
   margin-top: 50px;
   /* outline: 2px solid rgb(30, 255, 0); */
 }
 
 .udvalg_wrapper {
   display: flex;
-  font-size: 1vw;
+  font-size: 1.2rem;
   margin-top: 60px;
   /* outline: 2px solid rgb(47, 0, 255); */
 }
@@ -39,12 +35,12 @@ img {
   .ting {
     display: flex;
     flex-direction: column;
-    font-size: 1.5vw;
+    font-size: 1rem;
   }
 
   .udvalg_wrapper {
-    display: flex;
-    font-size: 1vw;
+    display: grid;
+    font-size: 1rem;
   }
 }
 

@@ -15,11 +15,21 @@
   <body>
     <header>
       <nav>
-        <a href="index.html" class="logo">Strikkes</a>
-        <ul>
-          <li><a href="produktside.html">PRODUKTER</a></li>
-          <li><a href="produkt_detalje.html">PRODUKT</a></li>
-          <li><a href="cafeen.html">STRIKKECAFE</a></li>
+        <div class="logo">
+          <li>
+            <a href="forside.html">
+              <img src="/billeder/logo_strikkes.svg" alt="" />
+            </a>
+          </li>
+        </div>
+        <div id="menuknap">☰</div>
+
+        <ul id="menu" class="hidden">
+          <li><a href="underside.html">Tilbud</a></li>
+          <li><a href="produktside.html">Garn</a></li>
+          <li><a href="underside.html">Tilbehør</a></li>
+          <li><a href="underside.html">Medlemskab</a></li>
+          <li><a href="cafeen.html">Strikkecafeen</a></li>
         </ul>
       </nav>
     </header>
@@ -43,7 +53,7 @@
             </div>
             <hr />
             <div class="farver">
-              <h2>farver</h2>
+              <h2>Farver</h2>
               <ul class="color">
                 <li class="color color_1"></li>
                 <li class="color color_2"></li>
@@ -152,6 +162,8 @@
         </div>
       </div>
     </footer>
-    <script src="login.js"></script>
+    <script src="../java/login.js"></script>
+    <script src="../java/index.js"></script>
+    <script src="../java/script.js"></script>
   </body>
 </html>
