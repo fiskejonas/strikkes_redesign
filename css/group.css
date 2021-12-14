@@ -189,9 +189,6 @@ ul {
 
   width: 50px;
 }
-*/ .footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
 
 .footer-col ul li a {
   font-size: 1rem;
@@ -224,7 +221,7 @@ ul {
 
   width: 40px;
 
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(158, 76, 76, 0.2);
 
   margin: 0 10px 10px 0;
 
