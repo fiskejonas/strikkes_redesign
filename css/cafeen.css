@@ -9,6 +9,12 @@ img {
   height: auto;
   display: block;
 }
+/*billede resize*/
+.resize {
+  width: 400px;
+  height: 400px;
+  margin-top: 4.3rem;
+}
 
 .strikkecafe {
   display: flex;
@@ -21,7 +27,7 @@ h2 {
 
 hr {
   height: 5px;
-  background-color:  white;
+  background-color: white;
   border: none;
 }
 
@@ -31,22 +37,39 @@ button,
 textarea,
 select {
   display: block;
+  padding: 1% 2%;
 }
 
 .fornavn,
 .efternavn,
 .mail {
   font-family: "Roboto", sans-serif;
+  color: grey;
 }
 
 .tilmeld {
-  margin-top: 1rem;
   font-family: "Roboto", sans-serif;
+  color: grey;
 }
 
 .bekræft {
   margin-top: 1rem;
   font-family: "Roboto", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: rgb(164, 212, 159);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1.5% 7%;
+  margin-left: 1rem;
+}
+
+button:hover {
+  box-shadow: 0 5px 5px 0 rgba(143, 143, 143, 0.301),
+    5px 5px 10px 5px rgba(110, 121, 110, 0.178);
 }
 
 @media only screen and (max-width: 800px) {
@@ -55,13 +78,9 @@ select {
     flex-direction: column;
     font-size: 1rem;
   }
-}
 
-/* @media (min-width: 650px) {
-  section#strikkecafeen {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  .resize {
+    width: 400px;
+    height: 350px;
   }
-
-
+}
