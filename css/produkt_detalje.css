@@ -124,37 +124,3 @@ button:hover {
   box-shadow: 0 5px 5px 0 rgba(143, 143, 143, 0.301),
     5px 5px 10px 5px rgba(110, 121, 110, 0.178);
 }
-
-/* burgermenu */
-.toggle-btn {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .toggle-btn {
-    background: transparent;
-    border: none;
-    display: block;
-    min-width: 44px;
-    min-height: 44px;
-    font-size: 1.1rem;
-    cursor: pointer;
-  }
-
-  nav {
-    display: none;
-  }
-
-  nav.shown {
-    border-top: 1px solid #000;
-    padding-top: 1rem;
-    display: flex;
-    flex: 1 1 100%;
-    flex-flow: column;
-  }
-
-  nav ul {
-    display: flex;
-    flex-flow: column;
-  }
-}
