@@ -9,6 +9,12 @@ img {
   height: auto;
   display: block;
 }
+/*billede resize*/
+.resize {
+  width: 400px;
+  height: 400px;
+  margin-top: 4.3rem;
+}
 
 .strikkecafe {
   display: flex;
