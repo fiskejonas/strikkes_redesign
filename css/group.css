@@ -86,7 +86,7 @@ header a:hover {
   font-size: 10vw;
   color: black;
 }
-.logo li {
+.logo {
   list-style-type: none;
   padding: 10px;
 }
