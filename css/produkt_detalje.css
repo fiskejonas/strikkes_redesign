@@ -111,6 +111,12 @@ button {
   border-radius: 5px;
 }
 
+.kurv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button:hover {
   box-shadow: 0 5px 5px 0 rgba(143, 143, 143, 0.301),
     5px 5px 10px 5px rgba(110, 121, 110, 0.178);

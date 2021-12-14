@@ -19,7 +19,8 @@ h1 {
   font-size: 40px;
 }
 
-p {
+p,
+li {
   font-family: "Roboto", sans-serif;
 }
 
