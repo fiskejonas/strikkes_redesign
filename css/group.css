@@ -27,7 +27,8 @@ h1 {
   color: grey;
 }
 
-p {
+p,
+li {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
   color: grey;
