@@ -57,7 +57,16 @@ main img {
   padding: 1rem;
 }
 
-/*header*/
+//*HEADER*/
+.banner {
+  background: #ffffff;
+  padding: 2rem;
+}
+
+.banner ul {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 header {
   /* margin-left: 10vw; */
@@ -78,7 +87,7 @@ header a:hover {
   color: gray;
 }
 
-#menu li {
+.banner li {
   padding: 2vw;
 }
 
@@ -99,31 +108,42 @@ header a:hover {
   display: inline-block;
   padding: 3vw;
 }
-#menu {
+.banner {
   transition: transform 0.3s;
   transform-origin: top left;
   list-style-type: none;
 }
 
-li a {
-  text-decoration: none;
+/* burgermenu */
+.toggle-btn {
+  display: none;
 }
 
-@media (min-width: 600px) {
-  #menuknap {
+@media (max-width: 600px) {
+  .toggle-btn {
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
     display: none;
   }
 
-  #menu.hidden {
-    transform: translateX(0);
-    opacity: 1;
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
   }
 
-  #menu {
+  nav ul {
     display: flex;
-    gap: 8vw;
-    text-decoration: none;
-    list-style-type: none;
+    flex-flow: column;
   }
 }
 

@@ -14,10 +14,10 @@ function toggleMenu() {
   const menuShown = nav.classList.contains("shown");
 
   // 1. Lav en if/else sætning => if (...) {...} else {...}
-  // 2. Spørg om menuShown i if-sætningen => if (menu)
+  // 2. Spørg om menuShown i if-sætningen => if (menuShown)
   if (menuShown) {
     // hvis nav har klassen "shown", sæt da btn.textContent til "Luk"
-    document.querySelector(".toggle-btn").textContent = "X";
+    btn.textContent = "X";
   } else {
     // hvis IKKE nav har klassen "shown", sæt da btn.textContent til "Menu"
     btn.textContent = "☰";
